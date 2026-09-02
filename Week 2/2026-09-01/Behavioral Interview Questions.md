@@ -378,7 +378,7 @@
   <h3>Task</h3>
   <p>
     The actual issue is a bit too complex to explain concisely, but it required
-    something to happen whenever a feature flag got toggled to migrate to a ne
+    something to happen whenever a feature flag got toggled to migrate to a new
      system or migrate back to the old system. There were multiple behaviors
      that could possibly happen because there was not a one-to-one mapping
      between the old and new system.
