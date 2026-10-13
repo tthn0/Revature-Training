@@ -49,7 +49,7 @@
     - In Java, this can be done by using the `extends` keyword as well as method overriding.
     - Java supports single level, multilevel, and hierarchical inheritance but NOT multiple class inheritance.
   - The E stands for Encapsulation:
-    - Which is the process of restricting direct access to an object’s fields
+    - Which is the process of restricting direct access to an object's fields
     - And instead using getters and setters to read or update them.
     - This allows more control over object fields
     - And also prevents dependent code from breaking in if internal implementation needs to change.

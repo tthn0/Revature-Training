@@ -48,7 +48,7 @@ $$ LANGUAGE sql;
 
 SELECT get_total_spending_from_customer(1);
 
--- Given an employee_id + new_manager_id, create a stored procedure to update an Employee’s ReportsTo field.
+-- Given an employee_id + new_manager_id, create a stored procedure to update an Employee's ReportsTo field.
 --    Prevent an employee reporting to themselves, reporting to a non-existence employee, or creating a circular management relationship
 
 CREATE OR REPLACE PROCEDURE update_employee_reports_to(
