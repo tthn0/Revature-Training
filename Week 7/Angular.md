@@ -2,12 +2,12 @@
 
 ## MPA vs SPA
 
-- **A SPA is** a web application that loads one main HTML page and dynamically updates its content as the user interacts with it, without fully reloading the page.
+- **SPA**: a web application that loads one main HTML page and dynamically updates its content as the user interacts with it, without fully reloading the page.
   - The browser initially loads the application.
   - JavaScript retrieves and displays new data as needed.
   - Navigation usually happens without a complete page refresh.
   - Frameworks such as React, Angular, and Vue are commonly used.
-- **A MPA is** a web application consisting of multiple HTML pages.
+- **MPA**: a web application consisting of multiple HTML pages.
   - When the user navigates to a different section, the browser generally requests a new page from the server and reloads the document.
 
 ## Angular Commands
@@ -77,10 +77,7 @@
 
 ```ts
 export const routes: Routes = [
-  {
-    path: "",
-    component: Home,
-  },
+  { path: "" component: Home }
 ];
 ```
 
@@ -103,3 +100,16 @@ export const routes: Routes = [
 - Make sure to import `RouterLink`.
 - Use `routerLink` to set our activated route.
 - The activated route will render the `<router-outlet>`.
+
+## Component Lifecycle
+
+| Hook                        | Timing                                                    | Common Use Case                                               |
+| :-------------------------- | :-------------------------------------------------------- | :------------------------------------------------------------ |
+| **`ngOnChanges`**           | When an `@Input()` property value changes.                | Reacting to data updates from a parent.                       |
+| **`ngOnInit`**              | Once, after the first `ngOnChanges`.                      | Initializing data, calling APIs, setting up subscriptions.    |
+| **`ngDoCheck`**             | During every change detection cycle.                      | Custom change detection logic (use sparingly!).               |
+| **`ngAfterContentInit`**    | After projected content (`<ng-content>`) is initialized.  | Interacting with elements passed into the component.          |
+| **`ngAfterContentChecked`** | After every check of projected content.                   | Validating projected content state.                           |
+| **`ngAfterViewInit`**       | After the component's view (and children) is initialized. | DOM manipulation, initializing third-party UI libraries.      |
+| **`ngAfterViewChecked`**    | After every check of the component's view.                | Finalizing view-related logic.                                |
+| **`ngOnDestroy`**           | Just before the component is destroyed.                   | Unsubscribing from Observables, cleaning up timers/listeners. |

@@ -19,7 +19,7 @@
 
   <h3>Task</h3>
   <p>
-    Although it had been 3 semesters since I took Data Structures, I decided to
+    Although it had been 3 semesters since I last took Data Structures, I decided to
     step in and help the student with a course that I wasn't even an official TA
     for.
   </p>
@@ -45,7 +45,7 @@
   <h3>Situation</h3>
   <p>
     During the beginning stages of my Application Security internship at Paycom,
-    I had complete a Capture The Flag challenge, which is also called a CTF for
+    I had to complete a Capture The Flag challenge, which is also called a CTF for
     short. A CTF is an intentionally vulnerably built website that contains
     hidden flags that could be found by using some form of exploitation of a
     security vulnerability. The object of any CTF is to find as many flags as
@@ -99,7 +99,7 @@
   
   <h3>Task</h3>
   <p>
-    The prompt we chose asked us to create an AI content recommendation for their
+    The prompt we chose asked us to create an AI content recommendation engine for their
     users, based on their activity. Although no front end was required, I wanted
     to create one anyways since that's what I enjoy the most about coding. I feel
     like my front end development skills are very strong and having a pretty and
@@ -159,7 +159,7 @@
     explain the what, the how, and the why. I like giving students the light bulb
     moment, and I want them to believe that they could've discovered the solution
     on their own. I have a passion for sharing my knowledge in the world of math
-    and computer science in a way that makes it understandable and and gets
+    and computer science in a way that makes it understandable and gets
     students interested in learning more. I think this makes every one of my
     tutoring sessions more productive for both me and the student.
   </p>
@@ -170,7 +170,7 @@
 
   <h3>Situation</h3>
   <p>
-    At my very first job as a Math Tutor at Mathnasium, the work schedule was always
+    At my very first job as a math tutor at Mathnasium, the work schedule was always
     created manually by my boss and sent out on Sunday at the beginning of the week.
     One time, my boss had too many people scheduled and no one caught the mistake.
     There was a specific hour where we only had one student since it was in the
@@ -187,7 +187,7 @@
   <h3>Action</h3>
   <p>
     Since only one tutor is required to be on shift for one student, I decided to
-    clock out and let mmy coworker take over since she was only scheduled for one
+    clock out and let my coworker take over since she was only scheduled for one
     hour that day while I had more hours scheduled later. After all, I was a lead
     instructor and in charge of the learning center, so I did what I thought was
     best since I didn't want to send my coworker home.
@@ -276,7 +276,7 @@
   <p>
     During my time as a software developer at Paycom, my team spent a lot of
     time manually code reviewing other pull requests from other teams. This was
-    because my team dealt with user roles, and you can imagine that every other
+    because my team dealt with user roles and permissions, and you can imagine that every other
     team would need to deal with checking roles and their authorizations or deal
     with adding and deleting roles. Unfortunately, the architecture of our role
     system was not initially built to scale easily, and we were still maintaining
@@ -371,7 +371,7 @@
     now owned the product decisions that the previous project manager would've
     been in charge of. I picked up a ticket to implement a simple-sounding
     feature, but after more careful consideration, I realized it required more
-    clarity. This was been something that I would typically discuss with our
+    clarity. This was something that I would typically discuss with our
     previous project manager.
   </p>
 
