@@ -1,0 +1,17 @@
+[
+    {
+        "book_id": "01a18d97-a4d1-75de-b6f9-61717eca13d4",
+        "title": "The Lightning Thief",
+        "author": "Rick Riordan"
+    },
+    {
+        "book_id": "01a18d97-d2ac-7732-9df7-9db1619f7551",
+        "title": "Harry Potter",
+        "author": "JK Rowling"
+    },
+    {
+        "book_id": "01a18d98-42ca-7388-8afc-a05160694dc0",
+        "title": "Cat in a Hat",
+        "author": "Dr. Suess"
+    }
+]
