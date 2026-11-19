@@ -81,7 +81,7 @@
     After submitting my pull request and demoing the new CTF with a UI
     overhaul, I got lots of positive feedback from leadership and got the green
     light to officially merge my changes into the main branch. My changes are
-    now a permanent part of Paycom's CTF website to this day and every future
+    now a permanent part of Paycom's CTF website to this day, and every future
     cohort of interns will see what I have contributed.
   </p>
 </details>
@@ -401,7 +401,7 @@
   <h3>Result</h3>
   <p>
     Since my code was already completed and making additional changes wasn't
-    unnecessary, I got the green light to merge my feature.
+    necessary, I got the green light to merge my feature.
   </p>
 </details>
 
